@@ -1,6 +1,20 @@
+.container{
+    /*背景图片设置*/
+    background-image: url("../img/logo1.png");
+    background-size: 400px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left:0px;
+    /*设置行高和文本居中*/
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
 .nav-pills{
     float: right;
 }
 #titleBar1{
-    background-color: pink;
+    background-color: #ffeaed;
+    position: relative;
+    height: 300px;
 }
