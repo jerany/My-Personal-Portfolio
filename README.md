@@ -1,1 +1,1 @@
-# my-personal-portfolio
+# ztyp-index
