@@ -1,18 +1,60 @@
+/*初始化*/
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 100%;
+    width:100%;
+    text-align: center;
+    color: #33383d;
+    font-size: 14px;
+}
+
 .container{
     /*背景图片设置*/
-    background-image: url("../img/logo1.png");
-    background-size: 400px 50px;
-    background-repeat: no-repeat;
-    background-position: center;
+    /*background-image: url("../img/logo1.png");*/
+    /*background-size: 320px 40px;*/
+    /*background-repeat: no-repeat;*/
+    background: url("../img/logo1.png") 320px 40px no-repeat fixed;
     margin-left:0px;
     /*设置行高和文本居中*/
-    position: relative;
-    height: 40px;
+    height: 50px;
     line-height: 40px;
 }
-.nav-pills{
-    float: right;
+
+/*设置导航栏样式*/
+.ul-nav{
+    list-style-type: none;
+    padding:5px 0;
+    margin:0;
 }
+
+/*设置导航栏列表样式*/
+.li-nav{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+
+/*设置导航栏a标签样式*/
+/*设置没访问过、访问过后的样式*/
+.a-nav:link,a:visited
+{
+    font-weight:bold;
+    color: #81b4ff;
+    text-align:center;
+    padding:14px;
+    text-decoration: none;
+}
+/*设置鼠标悬停、点击时的样式*/
+.a-nav:hover,a:active
+{
+    background-color: rgba(79, 75, 87, 0.05);
+    border-radius: 4px;
+}
+
+/*轮播图样式*/
 #titleBar1{
     background-color: #ffeaed;
     position: relative;
