@@ -1,3 +1,8 @@
+body{
+    font-family: "微软雅黑";
+    font-size: 13px;
+}
+
 nav{
     background: #fff;
     height:60px; 
@@ -10,28 +15,34 @@ nav ul{
 
 nav ul .logo{
     float: left;
+    margin-left: 5%;
 }
 
 nav ul li{
     display: inline-block;
     height: 60px;
     float: right;
-    margin-right: 20px;
+    margin-right: 2%;
+}
+
+#li-last{
+    margin-right: 10%;
 }
 
 nav ul li a{
     height:inherit;
     line-height: 60px;
-    font-size: 14px;
+    font-size: 13px;
+    font-family: "微软雅黑";
     text-decoration: none;
     display: inline-block;
 }
 
 a:link{
-    color: #45D3C5;
+    color: #0464F7;
 }
 a:visited{
-    color: #45D3C5;
+    color: #0464F7;
 }
 a:hover{
     color: green;
@@ -46,7 +57,40 @@ nav ul li a img{
 }
 
 #banner{
-    background: #ccc;
     background-image: url("../img/binner.jpg");
-    height: 400px;
+    background-size: cover;
+    height: 320px;
+}
+
+#content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#content .separator-line{
+    height: 6px;
+    margin: 5% 0 3% 0;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+#content .intro .intro-left{
+    background: url(../img/intro.png) no-repeat;
+    width: 200px;
+    height:142px;
+    float: left;
+    margin:10px;
+}
+
+.intro h3{
+    font-weight: bold;
+    color: #055C9A;
+    text-align: left;
+    padding: 10px 0 0;
+}
+
+.intro p{
+    text-align: left;
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 20px;
 }
