@@ -25,10 +25,6 @@ nav ul li{
     margin-right: 2%;
 }
 
-#li-last{
-    margin-right: 10%;
-}
-
 nav ul li a{
     height:inherit;
     line-height: 60px;
@@ -73,6 +69,10 @@ nav ul li a img{
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
+#content .intro{
+    border-bottom: #404040 1px solid;
+}
+
 #content .intro .intro-left{
     background: url(../img/intro.png) no-repeat;
     width: 200px;
@@ -93,4 +93,33 @@ nav ul li a img{
     text-indent: 2em;
     font-size: 14px;
     line-height: 20px;
+}
+
+.product{
+    height: 400px;
+    margin-top: 3%;
+    background: #cccccc;
+}
+
+.product .product-1{
+    width:400px;
+    height:230px;
+    background: #fff;
+    float: left;
+}
+
+.numClass-0{
+    color: lightgreen;
+    border-bottom: 3px solid blue;
+}
+
+.numClass-1{
+    color: lightgreen;
+    font-size:26px;
+    font-weight: 500;
+}
+
+.product .product-1 p{
+   text-indent: 2em;
+
 }
