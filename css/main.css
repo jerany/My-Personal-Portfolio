@@ -1,4 +1,12 @@
+html{
+    height: 100%;
+}
+
 body{
+    min-height: 100%;
+    margin:0;
+    padding: 0;
+    position: relative;
     font-family: "微软雅黑";
     font-size: 13px;
 }
@@ -6,6 +14,10 @@ body{
 nav{
     background: #fff;
     height:60px; 
+}
+
+a{
+    text-decoration: none;
 }
 
 nav ul{
@@ -61,6 +73,7 @@ nav ul li a img{
 #content{
     width: 80%;
     margin: 0 auto;
+    height: 1000px;
 }
 
 #content .separator-line{
@@ -96,15 +109,13 @@ nav ul li a img{
 }
 
 .product{
-    height: 400px;
     margin-top: 3%;
-    background: #cccccc;
 }
 
-.product .product-1{
-    width:400px;
-    height:230px;
+.product-1{
+    width:40%;
     background: #fff;
+    padding-left:5%;
     float: left;
 }
 
@@ -119,7 +130,57 @@ nav ul li a img{
     font-weight: 500;
 }
 
-.product .product-1 p{
+.product-1 p{
    text-indent: 2em;
-
+   line-height: 1.5em;
+   text-align: left;
 }
+
+.product-1 pre{
+    display: block;
+    color: #17862e;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.product-2{
+    width:40%;
+    background: #fff;
+    padding-left:5%; 
+    padding-right:5%;
+    float: right;
+}
+
+.product-2 p{
+   text-indent: 2em;
+   line-height: 1.5em;
+   text-align: left;
+}
+
+.product-2 pre{
+    display: block;
+    color: #17862e;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.button-more{
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #ccc;
+    border-radius: 4px;
+    position: relative;
+    float: right;
+}
+
+footer{
+    clear: both;
+    height: 150px;
+    background: #111;
+}
+
+/*footer nav ul li{
+    display: inline-block;
+}*/
