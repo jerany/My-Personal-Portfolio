@@ -11,39 +11,40 @@ body{
     font-size: 13px;
 }
 
-nav{
+header nav{
     background: #fff;
     height:60px; 
 }
 
-a{
-    text-decoration: none;
-}
 
-nav ul{
+header nav ul{
     list-style: none;
     margin: 0;
 }
 
-nav ul .logo{
+header nav ul .logo{
     float: left;
     margin-left: 5%;
 }
 
-nav ul li{
+header nav ul li{
     display: inline-block;
     height: 60px;
     float: right;
     margin-right: 2%;
 }
 
-nav ul li a{
+header nav ul li a{
     height:inherit;
     line-height: 60px;
     font-size: 13px;
     font-family: "微软雅黑";
     text-decoration: none;
     display: inline-block;
+}
+
+a{
+    text-decoration: none;
 }
 
 a:link{
@@ -83,7 +84,9 @@ nav ul li a img{
 }
 
 #content .intro{
+    margin-bottom: 3%;
     border-bottom: #404040 1px solid;
+    clear: both;
 }
 
 #content .intro .intro-left{
@@ -110,6 +113,7 @@ nav ul li a img{
 
 .product{
     margin-top: 3%;
+    height: 600px;
 }
 
 .product-1{
@@ -177,10 +181,44 @@ nav ul li a img{
 
 footer{
     clear: both;
-    height: 150px;
-    background: #111;
+    height: 90px;
+    background: #C1ADFE;
+    border-top: 5px  #808080 solid;
+    margin:0 auto;
 }
 
-/*footer nav ul li{
-    display: inline-block;
-}*/
+footer nav{
+    display: block;
+    margin-top: 20px;
+}
+
+footer nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer nav ul li{
+   display: inline-block;
+   margin-right:20px;
+}
+
+
+footer nav ul li a:link{
+    color: #fff;
+}
+footer nav ul li a:visited{
+    color: #fff;
+}
+footer nav ul li a:hover{
+    color: #fff;
+}
+footer nav ul li a:active{
+    color: #fff;
+}
+
+.copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+}
