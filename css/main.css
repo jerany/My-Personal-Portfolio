@@ -11,6 +11,12 @@ body{
     font-size: 13px;
 }
 
+#wrapper{
+    min-height: 600px;
+    min-width: 800px;
+    height: 100%;
+}
+
 header nav{
     background: #fff;
     height:60px; 
